@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tittle{
+  text-align: center;
+  font-size: 48px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #f55a00;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.container{
+  width: 1400px;
+  margin: 0 auto;
+  background: #dbdada;
+  padding: 40px 0 0 0;
+  border: 1px solid #292929;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  background: #ffe7d9;
+}
+.table{
+  width: 100%;
+  border-top: 1px solid #292929;
+  border-bottom: 1px solid #292929;
+  
+}
+.headerRow{
+  height: 120px;
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  background: #ffa46f;
+}
+.id{
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.id_width{
+  width: 3%;
+  border-right: 1px solid #292929;
+}
+.name_width{
+  width: 10%;
+  border-right: 1px solid #292929;
+}
+.username_width{
+  width: 8%;
+  border-right: 1px solid #292929;
+}
+.phone_width{
+  width: 8%;
+  border-right: 1px solid #292929;
+}
+.website_width{
+  width: 8%;
+}
+.email_width{
+  width: 8%;
+  border-right: 1px solid #292929;
+}
+.address_width{
+  width: 45%;
+  height: 100%;
+  border-right: 1px solid #292929;
+
+}
+.address{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company_width{
+  width: 10%;
+  border-right: 1px solid #292929;
+}
+.id h3{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+}
+.address{
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid #292929;
+}
+.address h3{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+}
+.Adress_info{
+  width: 100%;
+  display: flex;
+  height: 50%;
+}
+.street{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.street_width{
+  width: 16.66%;
+  border-right: 1px solid #292929;
+}
+.geo_width{
+  width: 33.32%;
+}
+.street h3{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+}
+.geo{
+  height: 100%;
+}
+.geo_item{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #292929;
+}
+.geo_item2{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.geo_item h3{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+}
+.lat{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+}
+.lat h3{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+ 
+}
+.lng h3{
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+}
+.lng{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.idData{
+  width: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+  height: 100%;
+  padding: 0 5px 0 5px;
+  
+}
+.namedata{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+  height: 100%;
+  padding: 0 5px 0 5px;
+  
+}
+.username,.email, .phone{
+  width: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+  height: 100%;
+  padding: 0 5px 0 5px;
+  
+}
+.street_data, .suite_data, .zipcode_data, .city_data, .lat_data{
+  width: 104.63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+  height: 100%;
+  padding: 0 5px 0 5px;
+}
+.lng_data{
+  width: 105.63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+  height: 100%;
+  padding: 0 5px 0 5px;
+}
+.company_data{
+  width: 140.75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #292929;
+  height: 100%;
+  padding: 0 5px 0 5px;
+}
+.web_data{
+  width: 111.8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 5px 0 5px;
+}
+
+.idData h3,.namedata h3,.username h3,.email h3,.phone h3, .street_data h3,.suite_data h3, .zipcode_data h3, .city_data h3, .lat_data h3, .lng_data h3, .company_data h3, .web_data h3{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #292929;
+  overflow: hidden;
+}
+.dataRow{
+  border-bottom: 1px solid #292929;
+  height: 60px;
+  display: flex;
+  
+}
+.dataRow:nth-child(even){
+  background: #ffba92;
+}
+.dataRow:nth-child(odd){
+  background: #ffe7d9;
+}
+.dataRow:last-child{
+  border: none;
+}
+.btn{
+  width: 100%;
+
+}
+.showBtn{
+  padding: 20px 40px;
+  margin: 20px auto 20px auto;
+  display: block;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #292929;
+  cursor: pointer;
+  background: #ffa46f;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 600;
+  transition: all linear 0.3s;
+}
+.showBtn:hover{
+  background: #ffc7a7;
+}
